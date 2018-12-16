@@ -6,4 +6,4 @@
 - เราจะทำการแปลงไฟล์ PDF ให้เป็นรูปภาพ แล้วจากนั้นจึงป้อนเข้า CNN Model เพื่อทำการแยกประเภทไฟล์
 - ในโปรเจ็คนี้ได้เตรียม dataset สำหรับการ Train และ Test ไว้ที่ 1260 ภาพ โดยแบ่งเป็น Train 1200 ภาพ และ Test 60 ภาพ
 
-![](Readme_image/example_exam(1).jpg)
+![](Readme_image/example_exam(1).jpg =250x)

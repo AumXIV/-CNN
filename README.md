@@ -17,13 +17,8 @@
 5. Flatten bit แล้วป้อนเข้า Neural Network
 6. Neural Network ให้ผลเป็นชื่อ class ออกมาว่าเป็นเอกสารประเภทใด
 
-###การทดสอบ
+### การทดสอบ
 
 1. นำไฟล์ PDF มาแปลงหน้าแรกให้เป็นรูปภาพโดยใช้ code จากไฟล์ [create_image.py](create_image.py)
-
-    def colect_image(pdf_dir, imageout_dir): 
-    images = convert_from_path(pdf_dir, dpi=50)
-    images[0].save(imageout_dir+'.png', 'png')
-
 2. โหลด weight (100EPOCH.h5) มาใช้กับโมเดลในไฟล์ [model.py](model.py)
 3. ใช้ฟังก์ชั่น show_test() เพื่อแสดงผลการทดสอบ

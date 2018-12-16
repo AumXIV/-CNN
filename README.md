@@ -28,6 +28,9 @@
 6. Neural Network ให้ผลเป็นชื่อ class ออกมาว่าเป็นเอกสารประเภทใด
 
 
+## โครงสร้างของโมเดล
+
+![](Readme_image/model_structure.jpg)
 
 ## การทดสอบ
 

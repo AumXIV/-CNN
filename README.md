@@ -11,9 +11,11 @@
 
 ![](Readme_image/example_exam.jpg)
 
+
 ### ตัวอย่างเอกสารประกอบการสอน
 
 ![](Readme_image/example_lecture.jpg)
+
 
 
 ## ขั้นตอนการทำงานของโมเดล
@@ -26,20 +28,26 @@
 6. Neural Network ให้ผลเป็นชื่อ class ออกมาว่าเป็นเอกสารประเภทใด
 
 
+
 ## การทดสอบ
 
 1. นำไฟล์ PDF มาแปลงหน้าแรกให้เป็นรูปภาพโดยใช้ code จากไฟล์ [create_image.py](create_image.py)
 2. โหลด weight (100EPOCH.h5) มาใช้กับโมเดลในไฟล์ [model.py](model.py)
 3. ใช้ฟังก์ชั่น show_test() เพื่อแสดงผลการทดสอบ
 
+
 ### ภาพตัวอย่างการทดสอบ
 #### หน้าปกข้อสอบ ให้ผลลัพท์เป็น exam
 
 ![](Readme_image/test_exam.jpg)
 
+
 #### หน้าแรกของเอกสารประกอบการเรียนการสอน ให้ผลการทดสอบเป็น lecture
 
+
 ![](Readme_image/test_lecture.jpg)
+
+
 
 ## ปัญหาของโครงงาน
 
